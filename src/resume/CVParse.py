@@ -1,7 +1,3 @@
-!python -m spacy download en_core_web_md
-
-!pip install spacy_layout
-
 import spacy
 from spacy_layout import spaCyLayout
 

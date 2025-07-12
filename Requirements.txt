@@ -1,0 +1,5 @@
+spacy download en_core_web_md
+spacy_layout
+datasets
+transformers
+torch

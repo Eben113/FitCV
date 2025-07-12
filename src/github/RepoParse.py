@@ -6,7 +6,7 @@ import pandas as pd
 with open("/content/languages.json") as f:
   languages = json.load(f)
 
-token = "77ZNLowuJbmDiJ7I7CX2xBsBD7Rx9m3TDwHo"
+token = "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"
 headers = {"Authorization": f"token ghp_{token}"}
 
 res = requests.get("https://api.github.com/users/Eben113/repos", headers=headers)
